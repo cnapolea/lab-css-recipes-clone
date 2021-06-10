@@ -70,8 +70,11 @@ body {
   line-height: 2;
 }
 
-/* feat: Adding Style Part I:
-- Remove margin and padding of the document
-- Add height and width of 100% to html and body tags
-- Add style to header section: Includes background image and text center alignment 
-- Add style to introduction section: Make display flex with column direction with children center aligned  */
+#directions {
+  padding-bottom: 5%;
+}
+
+#directions > p {
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
